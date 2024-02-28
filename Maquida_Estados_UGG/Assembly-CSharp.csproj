@@ -53,6 +53,7 @@
     <UnityVersion>2021.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\AI.cs" />
     <Compile Include="Assets\State.cs" />
     <Compile Include="Assets\GameEnvironment.cs" />
   </ItemGroup>
