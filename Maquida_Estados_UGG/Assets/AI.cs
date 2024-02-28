@@ -1,25 +1,25 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class AI : MonoBehaviour
-{
-    
-    NavMeshAgent agent; 
-    Animator anim; 
-    public Transform player;  
-    State currentState;
+public class AI : MonoBehaviour {
 
-    void Start()
-    {
-        agent = this.GetComponent<NavMeshAgent>(); 
-        anim = this.GetComponent<Animator>(); 
-        currentState = new Idle(this.gameObject, agent, anim, player); 
+    NavMeshAgent agent;
+    Animator anim;
+    State currentState;
+    public Transform player;
+
+    void Start() {
+
+        agent = GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
+        currentState = new Idle(gameObject, agent, anim, player);
     }
 
-    void Update()
-    {
-        currentState = currentState.Process(); 
+
+    void Update() {
+
+        currentState = currentState.Process();
     }
 }
