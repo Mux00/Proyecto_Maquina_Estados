@@ -108,11 +108,14 @@
     <Compile Include="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
     <None Include="Assets\Standard Assets\StarterAssets\license.txt" />
     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
